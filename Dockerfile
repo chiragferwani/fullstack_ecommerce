@@ -35,6 +35,9 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
 # Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
+# Create npm cache directory and set ownership
+RUN mkdir -p /var/www/.npm && chown -R www-data:www-data /var/www/.npm
+
 # Install Node dependencies and build assets (as www-data user)
 USER www-data
 RUN npm install && npm run prod
