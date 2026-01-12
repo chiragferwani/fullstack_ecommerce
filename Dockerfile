@@ -29,8 +29,8 @@ WORKDIR /var/www/html
 # Copy project files
 COPY . .
 
-# Set permissions BEFORE running npm (to avoid EACCES errors)
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public
+# Set permissions for the entire project directory (needed for npm to write package-lock.json and node_modules)
+RUN chown -R www-data:www-data /var/www/html
 
 # Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
