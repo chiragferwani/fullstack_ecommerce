@@ -69,7 +69,7 @@
                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                               </button>
-                            </div><!-- Visit 'codeastro' for more projects -->
+                            </div><!-- Visit 'Akash' for more projects -->
                             <div class="modal-body">
                               <form method="post" action="{{ route('banners.destroy',$user->id) }}">
                                 @csrf 

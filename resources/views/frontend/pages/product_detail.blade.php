@@ -14,7 +14,7 @@
 	<meta property="og:image" content="{{$product_detail->photo}}">
 	<meta property="og:description" content="{{$product_detail->description}}">
 @endsection
-@section('title','Ecommerce Laravel || PRODUCT DETAIL')
+@section('title','AP-Ecom || PRODUCT DETAIL')
 @section('main-content')
 
 		<!-- Breadcrumbs -->
@@ -163,7 +163,7 @@
 
 											</div>
 											<!--/ End Product Buy -->
-											<!-- Visit 'codeastro' for more projects -->
+											<!-- Visit 'Akash' for more projects -->
 										</div>
 									</div>
 								</div>
@@ -314,7 +314,7 @@
 					</div>
 		</section>
 		<!--/ End Shop Single -->
-		<!-- Visit 'codeastro' for more projects -->
+		<!-- Visit 'Akash' for more projects -->
 		<!-- Start Most Popular -->
 	<div class="product-area most-popular related-product section">
         <div class="container">

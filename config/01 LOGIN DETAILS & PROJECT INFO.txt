@@ -1,4 +1,4 @@
-**Log on to codeastro.com for more projects!***
+**Log on to Akash.com for more projects!***
 
 
 **Developed by Prajwal Rai**
@@ -10,11 +10,11 @@
 ---Admin Login Details---
 
 Email   : admin@mail.com
-Password: codeastro.com
+Password: Akash.com
 
 --Customer Login Details---
 Email   : customer@mail.com
-Password: codeastro.com
+Password: Akash.com
 
 
 **Check the Website's Post Page for all the Installation Instructions**

@@ -73,6 +73,6 @@
             </div>
         </div>
     </div>
-    <!-- Visit 'codeastro' for more projects -->
+    <!-- Visit 'Akash' for more projects -->
 </div>
 @endsection

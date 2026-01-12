@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Ecommerce Laravel - Login Panel</title>
+  <title>AP-Ecom - Login Panel</title>
   @include('backend.layouts.head')
 
 </head>
@@ -74,7 +74,7 @@
         </div>
 
       </div>
-<!-- Visit 'codeastro' for more projects -->
+<!-- Visit 'Akash' for more projects -->
     </div>
 
   </div>

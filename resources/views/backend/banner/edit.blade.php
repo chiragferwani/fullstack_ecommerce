@@ -1,5 +1,5 @@
 @extends('backend.layouts.master')
-@section('title','Ecommerce Laravel || Banner Edit')
+@section('title','AP-Ecom || Banner Edit')
 @section('main-content')
 
 <div class="card">
@@ -55,7 +55,7 @@
         </div>
       </form>
     </div>
-</div><!-- Visit 'codeastro' for more projects -->
+</div><!-- Visit 'Akash' for more projects -->
 
 @endsection
 

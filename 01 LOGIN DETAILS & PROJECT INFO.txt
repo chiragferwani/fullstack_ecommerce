@@ -4,11 +4,11 @@
 ---Admin Login Details---
 
 Email   : admin@mail.com
-Password: codeastro.com
+Password: Akash.com
 
 --Customer Login Details---
 Email   : customer@mail.com
-Password: codeastro.com
+Password: Akash.com
 
 
 
