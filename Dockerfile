@@ -29,14 +29,16 @@ WORKDIR /var/www/html
 # Copy project files
 COPY . .
 
+# Set permissions BEFORE running npm (to avoid EACCES errors)
+RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache /var/www/html/public
+
 # Install PHP dependencies
-RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs --ignore-platform-reqs
+RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
-# Install Node dependencies and build assets
+# Install Node dependencies and build assets (as www-data user)
+USER www-data
 RUN npm install && npm run prod
-
-# Set permissions for storage and cache
-RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+USER root
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
